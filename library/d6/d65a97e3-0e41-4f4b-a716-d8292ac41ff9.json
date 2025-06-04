@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "room1",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "width": 3,
+    "height": 3,
+    "layout": [
+      "#P#",
+      "###",
+      "#E#"
+    ]
+  }
+}

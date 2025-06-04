@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/Damage.ts"],"names":["Damage","constructor","damage"],"mappings":";;;iBAAaA,M;;;;;;;;;;;;;wBAAAA,M,GAAN,MAAMA,MAAN,CAAa;AAChBC,QAAAA,WAAW,CAAQC,MAAR,EAAuB;AAAA,eAAfA,MAAe,GAAfA,MAAe;AAAE;;AADpB,O","sourcesContent":["export class Damage {\n    constructor(public damage: number){}\n}"]}

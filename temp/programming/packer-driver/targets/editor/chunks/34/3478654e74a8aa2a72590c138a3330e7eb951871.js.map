@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/Health.ts"],"names":["Health","constructor","health"],"mappings":";;;iBAAaA,M;;;;;;;;;;;;;wBAAAA,M,GAAN,MAAMA,MAAN,CAAa;AAChBC,QAAAA,WAAW,CAAQC,MAAR,EAAuB;AAAA,eAAfA,MAAe,GAAfA,MAAe;AAAE;;AADpB,O","sourcesContent":["export class Health {\n    constructor(public health: number){}\n}\n\n"]}

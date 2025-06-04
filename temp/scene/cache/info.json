@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Core(TM) i5-3550 CPU @ 3.30GHz",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "be54e590-4e3d-4335-a462-036a2af7ca89": "C:\\GameECSProject\\assets\\scenes\\Main.scene"
+    },
+    "deviceMd5": "91f01031533cafb57c5d6478992d83fb"
+}

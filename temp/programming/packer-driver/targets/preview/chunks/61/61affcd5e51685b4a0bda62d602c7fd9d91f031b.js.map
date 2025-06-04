@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/EnemyTag.ts"],"names":["EnemyTag","constructor"],"mappings":";;;iBAAaA,Q;;;;;;;;;;;;;0BAAAA,Q,GAAN,MAAMA,QAAN,CAAe;AAClBC,QAAAA,WAAW,GAAE,CAAE;;AADG,O","sourcesContent":["export class EnemyTag {\n    constructor(){}\n}\n\n"]}

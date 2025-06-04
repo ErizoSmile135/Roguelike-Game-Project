@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/data/consts.ts"],"names":["PrefabNames","Player","Enemy","Tile"],"mappings":";;;;;;;;;;;;;;6BAAaA,W,GAAc;AACzBC,QAAAA,MAAM,EAAE,QADiB;AAEzBC,QAAAA,KAAK,EAAE,OAFkB;AAGzBC,QAAAA,IAAI,EAAE;AAHmB,O","sourcesContent":["export const PrefabNames = {\n  Player: 'Player',\n  Enemy: 'Enemy',\n  Tile: 'Tile'\n} as const;"]}

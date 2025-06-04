@@ -1,0 +1,202 @@
+{
+  "be54e590-4e3d-4335-a462-036a2af7ca89": {
+    "url": "db://assets/scene/Main.scene",
+    "value": {
+      "depends": [
+        "be54e590-4e3d-4335-a462-036a2af7ca89",
+        "7bac3836-ac74-4a02-a522-4a5d3f85039c",
+        "f591f160-66eb-4f12-9213-caa7c4b0b29e",
+        "b494cadf-3cd1-418b-941c-2f9cfaabe309",
+        "be54e590-4e3d-4335-a462-036a2af7ca89"
+      ]
+    }
+  },
+  "ae0e321e-5aa5-4185-bad1-0c12a6b64cb2": {
+    "url": "db://assets/scene",
+    "value": {}
+  },
+  "d75a7c9a-897e-45e6-a3a1-d8aefe131f94": {
+    "url": "db://assets/scripts",
+    "value": {}
+  },
+  "9e40920e-b8e6-4979-9105-9078ad52a95a": {
+    "url": "db://assets/texture",
+    "value": {}
+  },
+  "89d3e4a7-5e01-4e39-9d9c-e5721fd18c36": {
+    "url": "db://assets/prefabs",
+    "value": {}
+  },
+  "7305bcd1-8504-4c91-8c64-8d5dc17aee9a": {
+    "url": "db://assets/scripts/core",
+    "value": {}
+  },
+  "a857b49f-ae43-4064-8c8f-044c3335d850": {
+    "url": "db://assets/scripts/components",
+    "value": {}
+  },
+  "a5c9a505-2ef1-44a1-b014-ee7b558cdb6e": {
+    "url": "db://assets/scripts/systems",
+    "value": {}
+  },
+  "84f5e3e7-efee-498d-977e-23a84135e29c": {
+    "url": "db://assets/scripts/ui",
+    "value": {}
+  },
+  "b6e32f66-4ef9-44bc-9a7f-07dab32006aa": {
+    "url": "db://assets/scripts/core/Game.ts",
+    "value": {}
+  },
+  "e44d917d-6631-458b-9f95-a584f5d35c3b": {
+    "url": "db://assets/scripts/core/SceneController.ts",
+    "value": {}
+  },
+  "c538fec4-9333-4a45-83b3-fa21aa0b6c7b": {
+    "url": "db://assets/scripts/core/GameManager.ts",
+    "value": {}
+  },
+  "996c803b-6c41-4043-b747-b7cbc8fba288": {
+    "url": "db://assets/scripts/core/EntityManager.ts",
+    "value": {}
+  },
+  "c099cb26-61a0-40b2-9ac1-efc406656bbf": {
+    "url": "db://assets/scripts/systems/RenderSystem.ts",
+    "value": {}
+  },
+  "4b9bfff1-9006-4f1a-930d-fab8558205a4": {
+    "url": "db://assets/scripts/systems/MovementSystem.ts",
+    "value": {}
+  },
+  "bf56f4df-3574-41d2-8150-0d5f98e0aa89": {
+    "url": "db://assets/scripts/systems/CombatSystem.ts",
+    "value": {}
+  },
+  "3061b095-c1eb-424f-9929-d8f25fa4a92a": {
+    "url": "db://assets/scripts/systems/RoomSystem.ts",
+    "value": {}
+  },
+  "ee641700-7547-4389-a613-3f1d60c9c602": {
+    "url": "db://assets/scripts/components/ViewComponent.ts",
+    "value": {}
+  },
+  "4622ef4b-e759-438c-99b1-23b2080ceb33": {
+    "url": "db://assets/scripts/components/Position.ts",
+    "value": {}
+  },
+  "1498f492-b402-42a5-be10-f3b11f2c7ef6": {
+    "url": "db://assets/scripts/components/Health.ts",
+    "value": {}
+  },
+  "611a659b-b941-4f53-813f-a87e562376f9": {
+    "url": "db://assets/scripts/components/Damage.ts",
+    "value": {}
+  },
+  "55507d35-d6a4-4396-a63d-16fc5092b11f": {
+    "url": "db://assets/scripts/components/PlayerTag.ts",
+    "value": {}
+  },
+  "f4e16367-3637-45e4-9b88-e8994e571ab9": {
+    "url": "db://assets/scripts/components/EnemyTag.ts",
+    "value": {}
+  },
+  "96354976-530e-4abd-9d00-6208f108e0f8": {
+    "url": "db://assets/scripts/components/TileTag.ts",
+    "value": {}
+  },
+  "51ad610d-7d8b-4eaf-bc0c-2a12f4a05a79": {
+    "url": "db://assets/data",
+    "value": {}
+  },
+  "8ddb71a7-ef1c-43de-8e49-cddf90f6cbd8": {
+    "url": "db://assets/scripts/data/types.ts",
+    "value": {}
+  },
+  "8e4816f5-511f-4598-a59d-74e8ad8e52ad": {
+    "url": "db://assets/scripts/data/consts.ts",
+    "value": {}
+  },
+  "d406d37d-ecc9-4540-80bb-e2fde8025ecb": {
+    "url": "db://assets/data/rooms",
+    "value": {}
+  },
+  "d65a97e3-0e41-4f4b-a716-d8292ac41ff9": {
+    "url": "db://assets/resources/rooms/room1.json",
+    "value": {
+      "depends": []
+    }
+  },
+  "56d43b5d-e4a8-4558-92ef-4b36669dfa0f": {
+    "url": "db://assets/data/config",
+    "value": {}
+  },
+  "b2afba32-1e6b-4ad1-8435-8584665b93b3": {
+    "url": "db://assets/resurces",
+    "value": {}
+  },
+  "b0872899-c907-4cdb-816a-b2e94227be0d": {
+    "url": "db://assets/resources/rooms",
+    "value": {}
+  },
+  "b7697266-149b-437a-96ab-31fb3a3fb5da": {
+    "url": "db://assets/scripts/config",
+    "value": {}
+  },
+  "515e664d-6753-4768-8a47-deff7ce8db52": {
+    "url": "db://assets/scripts/data",
+    "value": {}
+  },
+  "2a9fdfe2-ad1e-458f-aa44-a6cc6ccb833e": {
+    "url": "db://assets/scripts/config/RoomConfig.ts",
+    "value": {}
+  },
+  "7bac3836-ac74-4a02-a522-4a5d3f85039c": {
+    "url": "db://assets/prefabs/Tile.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+      ]
+    }
+  },
+  "c3df2908-5daf-445b-bf85-4607d3cf3093": {
+    "url": "db://assets/resources",
+    "value": {}
+  },
+  "b494cadf-3cd1-418b-941c-2f9cfaabe309": {
+    "url": "db://assets/prefabs/Enemy.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+      ]
+    }
+  },
+  "f591f160-66eb-4f12-9213-caa7c4b0b29e": {
+    "url": "db://assets/prefabs/Player.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+      ]
+    }
+  },
+  "24ef493c-cdae-46e4-ba61-ea76033887f9": {
+    "url": "db://assets/texture/redTexsture.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "24ef493c-cdae-46e4-ba61-ea76033887f9@6c48a": {
+    "url": "db://assets/texture/redTexsture.png@6c48a",
+    "value": {
+      "depends": [
+        "24ef493c-cdae-46e4-ba61-ea76033887f9"
+      ]
+    }
+  },
+  "24ef493c-cdae-46e4-ba61-ea76033887f9@f9941": {
+    "url": "db://assets/texture/redTexsture.png@f9941",
+    "value": {
+      "depends": [
+        "24ef493c-cdae-46e4-ba61-ea76033887f9@6c48a"
+      ]
+    }
+  }
+}
