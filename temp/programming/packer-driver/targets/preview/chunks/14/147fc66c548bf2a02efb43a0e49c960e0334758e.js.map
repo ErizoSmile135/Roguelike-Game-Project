@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/intent/WaitIntent.ts"],"names":["WaitIntent","constructor"],"mappings":";;;iBACaA,U;;;;;;;;;;;;;4BAAAA,U,GAAN,MAAMA,UAAN,CAAiB;AACtBC,QAAAA,WAAW,GAAG,CAAE;;AADM,O","sourcesContent":["\r\nexport class WaitIntent {\r\n  constructor() {}\r\n}"]}

@@ -8,5 +8,16 @@
       "fitHeight": false
     },
     "highQuality": false
-  }
+  },
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      }
+    ],
+    "increaseId": 2
+  },
+  "layer": []
 }

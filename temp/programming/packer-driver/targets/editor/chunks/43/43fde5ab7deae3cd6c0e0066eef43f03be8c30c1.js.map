@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts"],"names":["PlayerTag","constructor"],"mappings":";;;iBAAaA,S;;;;;;;;;;;;;2BAAAA,S,GAAN,MAAMA,SAAN,CAAgB;AACnBC,QAAAA,WAAW,GAAE,CAAE;;AADI,O","sourcesContent":["export class PlayerTag {\n    constructor(){}\n}\n\n"]}

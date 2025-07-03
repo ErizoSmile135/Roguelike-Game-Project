@@ -11,7 +11,7 @@
     "time": 1748799659663.309
   },
   "C:\\GameECSProject\\assets\\texture": {
-    "time": 1748855697307.6895,
+    "time": 1750682918591.2302,
     "uuid": "9e40920e-b8e6-4979-9105-9078ad52a95a",
     "missing": false
   },
@@ -27,7 +27,7 @@
     "time": 1748800521482.1904
   },
   "C:\\GameECSProject\\assets\\scripts\\core": {
-    "time": 1748800605279.458,
+    "time": 1751287572878.8916,
     "uuid": "7305bcd1-8504-4c91-8c64-8d5dc17aee9a",
     "missing": false
   },
@@ -35,7 +35,7 @@
     "time": 1748800530814.053
   },
   "C:\\GameECSProject\\assets\\scripts\\components": {
-    "time": 1748800928217.307,
+    "time": 1751292678018.793,
     "uuid": "a857b49f-ae43-4064-8c8f-044c3335d850",
     "missing": false
   },
@@ -43,7 +43,7 @@
     "time": 1748800539227.0251
   },
   "C:\\GameECSProject\\assets\\scripts\\systems": {
-    "time": 1748800732727.5347,
+    "time": 1751292678019.793,
     "uuid": "a5c9a505-2ef1-44a1-b014-ee7b558cdb6e",
     "missing": false
   },
@@ -67,7 +67,7 @@
     "time": 1748800583273.6365
   },
   "C:\\GameECSProject\\assets\\scripts\\core\\SceneController.ts": {
-    "time": 1748808415764.7607,
+    "time": 1751127518960.6533,
     "uuid": "e44d917d-6631-458b-9f95-a584f5d35c3b",
     "missing": false
   },
@@ -75,7 +75,7 @@
     "time": 1748800594403.426
   },
   "C:\\GameECSProject\\assets\\scripts\\core\\GameManager.ts": {
-    "time": 1748808076095.7285,
+    "time": 1751295251993.6047,
     "uuid": "c538fec4-9333-4a45-83b3-fa21aa0b6c7b",
     "missing": false
   },
@@ -83,7 +83,7 @@
     "time": 1748800605291.4507
   },
   "C:\\GameECSProject\\assets\\scripts\\core\\EntityManager.ts": {
-    "time": 1748807119386.3298,
+    "time": 1751288625941.7878,
     "uuid": "996c803b-6c41-4043-b747-b7cbc8fba288",
     "missing": false
   },
@@ -91,7 +91,7 @@
     "time": 1748800671368.928
   },
   "C:\\GameECSProject\\assets\\scripts\\systems\\RenderSystem.ts": {
-    "time": 1748865438247.4675,
+    "time": 1751295265358.2542,
     "uuid": "c099cb26-61a0-40b2-9ac1-efc406656bbf",
     "missing": false
   },
@@ -99,7 +99,7 @@
     "time": 1748800685252.0378
   },
   "C:\\GameECSProject\\assets\\scripts\\systems\\MovementSystem.ts": {
-    "time": 1748800685239.0464,
+    "time": 1751290862911.6035,
     "uuid": "4b9bfff1-9006-4f1a-930d-fab8558205a4",
     "missing": false
   },
@@ -107,7 +107,7 @@
     "time": 1748800698200.2544
   },
   "C:\\GameECSProject\\assets\\scripts\\systems\\CombatSystem.ts": {
-    "time": 1748800698189.2615,
+    "time": 1751295168063.2163,
     "uuid": "bf56f4df-3574-41d2-8150-0d5f98e0aa89",
     "missing": false
   },
@@ -115,7 +115,7 @@
     "time": 1748800732739.5288
   },
   "C:\\GameECSProject\\assets\\scripts\\systems\\RoomSystem.ts": {
-    "time": 1748851638205.5403,
+    "time": 1751294163400.8264,
     "uuid": "3061b095-c1eb-424f-9929-d8f25fa4a92a",
     "missing": false
   },
@@ -123,7 +123,7 @@
     "time": 1748800858441.1418
   },
   "C:\\GameECSProject\\assets\\scripts\\components\\ViewComponent.ts": {
-    "time": 1748805423898.9675,
+    "time": 1750852750688.1145,
     "uuid": "ee641700-7547-4389-a613-3f1d60c9c602",
     "missing": false
   },
@@ -147,7 +147,7 @@
     "time": 1748800888353.0098
   },
   "C:\\GameECSProject\\assets\\scripts\\components\\Damage.ts": {
-    "time": 1748803687675.5884,
+    "time": 1751291844831.3242,
     "uuid": "611a659b-b941-4f53-813f-a87e562376f9",
     "missing": false
   },
@@ -206,12 +206,12 @@
     "missing": false
   },
   "C:\\GameECSProject\\assets\\scripts\\data\\consts.ts": {
-    "time": 1748803320232.1313,
+    "time": 1750944250171.3872,
     "uuid": "8e4816f5-511f-4598-a59d-74e8ad8e52ad",
     "missing": false
   },
   "C:\\GameECSProject\\assets\\scripts\\data\\types.ts": {
-    "time": 1748804762639.7205,
+    "time": 1750944262175.9531,
     "uuid": "8ddb71a7-ef1c-43de-8e49-cddf90f6cbd8",
     "missing": false
   },
@@ -219,7 +219,7 @@
     "time": 1748807371926.2427
   },
   "C:\\GameECSProject\\assets\\prefabs\\Tile.prefab": {
-    "time": 1748853579135.6958,
+    "time": 1750772299383.3113,
     "uuid": "7bac3836-ac74-4a02-a522-4a5d3f85039c",
     "missing": false
   },
@@ -243,7 +243,7 @@
     "time": 1748807147838.0994
   },
   "C:\\GameECSProject\\assets\\resources\\rooms\\room1.json": {
-    "time": 1748808800349.7854,
+    "time": 1751292273943.895,
     "uuid": "d65a97e3-0e41-4f4b-a716-d8292ac41ff9",
     "missing": false
   },
@@ -251,7 +251,7 @@
     "time": 1748808776391.2744
   },
   "C:\\GameECSProject\\assets\\prefabs\\Enemy.prefab": {
-    "time": 1748808776386.2769,
+    "time": 1750772309485.839,
     "uuid": "b494cadf-3cd1-418b-941c-2f9cfaabe309",
     "missing": false
   },
@@ -259,7 +259,7 @@
     "time": 1748808779905.1594
   },
   "C:\\GameECSProject\\assets\\prefabs\\Player.prefab": {
-    "time": 1748808779902.1604,
+    "time": 1750772304453.5542,
     "uuid": "f591f160-66eb-4f12-9213-caa7c4b0b29e",
     "missing": false
   },
@@ -283,8 +283,184 @@
     "time": 1748799517000.9998
   },
   "C:\\GameECSProject\\assets\\scene\\Main.scene": {
-    "time": 1748881183783.6465,
+    "time": 1751287724350.6438,
     "uuid": "be54e590-4e3d-4335-a462-036a2af7ca89",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\texture\\auto-atlas.pac.meta": {
+    "time": 1749227667903.7053
+  },
+  "C:\\GameECSProject\\assets\\texture\\auto-atlas.pac": {
+    "time": 1749227667889.7156,
+    "uuid": "1c00c810-6eae-408f-845e-12c48faa7c73",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\texture\\Dungeon_Tiles-28.png.meta": {
+    "time": 1750682918633.953
+  },
+  "C:\\GameECSProject\\assets\\texture\\Dungeon_Tiles-28.png": {
+    "time": 1749227208050.7925,
+    "uuid": "aeca1512-01ee-4fa6-a985-f6d7f26322da",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\AIComponent.ts.meta": {
+    "time": 1750767410153.1216
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\InputComponent.ts.meta": {
+    "time": 1750767410155.1199
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\AIComponent.ts": {
+    "time": 1750767291888.4695,
+    "uuid": "771e76d0-5463-4d18-8d0c-d7922f8472d0",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\InputComponent.ts": {
+    "time": 1750857703219.184,
+    "uuid": "08dde91d-1572-40e1-8383-50b78ab0e542",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\systems\\InputSystem.ts.meta": {
+    "time": 1750770299483.7576
+  },
+  "C:\\GameECSProject\\assets\\scripts\\systems\\InputSystem.ts": {
+    "time": 1751290920588.316,
+    "uuid": "bd95eda2-26a7-4966-aee8-0cd4cf5aac79",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core": {
+    "time": 1751286650771.8428,
+    "uuid": "cd62e5f5-68f4-4dbd-b949-09b0788b9bff",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent": {
+    "time": 1750951490292.591,
+    "uuid": "97041cbc-1c07-4df4-89d7-37cdf77e2fea",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag": {
+    "time": 1750948546599.4602,
+    "uuid": "0b9c7eb3-a6b7-4e21-adcb-efea1319c641",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\AIComponent.ts": {
+    "time": 1750767291888.4695,
+    "uuid": "771e76d0-5463-4d18-8d0c-d7922f8472d0",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\InputComponent.ts": {
+    "time": 1750948483732.5513,
+    "uuid": "08dde91d-1572-40e1-8383-50b78ab0e542",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\ViewComponent.ts": {
+    "time": 1750948640145.4692,
+    "uuid": "ee641700-7547-4389-a613-3f1d60c9c602",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\AttackIntent.ts": {
+    "time": 1750970911099.9893,
+    "uuid": "05c44357-a45f-4ddb-81fb-7fb54d26b7c3",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\InteractIntent.ts": {
+    "time": 1750970965182.1443,
+    "uuid": "39291a9b-a1c0-4089-b51b-41e96541f695",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\MoveIntent.ts": {
+    "time": 1751289646734.6956,
+    "uuid": "a11558f0-9c26-4d3b-86d9-47c0c53c812e",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\WaitIntent.ts": {
+    "time": 1750948723625.7278,
+    "uuid": "1bd28053-c68a-4f4a-b32b-6203e804d507",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\EnemyTag.ts": {
+    "time": 1748803659020.3591,
+    "uuid": "f4e16367-3637-45e4-9b88-e8994e571ab9",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\PlayerTag.ts": {
+    "time": 1748803603696.1753,
+    "uuid": "55507d35-d6a4-4396-a63d-16fc5092b11f",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\TileTag.ts": {
+    "time": 1748803544760.6262,
+    "uuid": "96354976-530e-4abd-9d00-6208f108e0f8",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core.meta": {
+    "time": 1750951490303.585
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent.meta": {
+    "time": 1750951490304.5835
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag.meta": {
+    "time": 1750951490305.5828
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\AIComponent.ts.meta": {
+    "time": 1750767410153.1216
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\InputComponent.ts.meta": {
+    "time": 1750767410155.1199
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\core\\ViewComponent.ts.meta": {
+    "time": 1748800858441.1418
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\AttackIntent.ts.meta": {
+    "time": 1750951490328.5693
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\InteractIntent.ts.meta": {
+    "time": 1750951490329.5684
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\MoveIntent.ts.meta": {
+    "time": 1750951490333.566
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\intent\\WaitIntent.ts.meta": {
+    "time": 1750951490335.565
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\EnemyTag.ts.meta": {
+    "time": 1748800916746.9526
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\PlayerTag.ts.meta": {
+    "time": 1748800903603.3357
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Tag\\TileTag.ts.meta": {
+    "time": 1748800928229.2993
+  },
+  "C:\\GameECSProject\\assets\\scripts\\core\\EventBus.ts": {
+    "time": 1751294585723.608,
+    "uuid": "16bffd0d-5077-4728-91d8-672d74d6c813",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\core\\EventBus.ts.meta": {
+    "time": 1750972704125.8953
+  },
+  "C:\\GameECSProject\\assets\\scripts\\core\\Pathfinding.ts": {
+    "time": 1751286935889.0334,
+    "uuid": "02e76e96-f8fe-40c6-a217-c2c8c93113c8",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\core\\Pathfinding.ts.meta": {
+    "time": 1751287573035.5347
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Trap.ts.meta": {
+    "time": 1751292678031.7854
+  },
+  "C:\\GameECSProject\\assets\\scripts\\systems\\TrapSystem.ts.meta": {
+    "time": 1751292678035.7832
+  },
+  "C:\\GameECSProject\\assets\\scripts\\components\\Trap.ts": {
+    "time": 1751294019470.3574,
+    "uuid": "a1a881a2-ff97-41ab-afb5-9149b5092502",
+    "missing": false
+  },
+  "C:\\GameECSProject\\assets\\scripts\\systems\\TrapSystem.ts": {
+    "time": 1751294334460.4563,
+    "uuid": "be4a4206-6537-4780-89e5-3878684d0045",
     "missing": false
   }
 }

@@ -1,0 +1,83 @@
+06.06.2025 19:28:12-debug: asset-db:worker-init (4587ms)
+06.06.2025 19:28:12-debug: Preimport db internal success
+06.06.2025 19:28:12-debug: Preimport db assets success
+06.06.2025 19:28:13-debug: asset-db:worker-effect-data-processing (887ms)
+06.06.2025 19:28:32-debug: Set detail map pack:///resolution-detail-map.json: {}
+06.06.2025 19:28:32-debug: asset-db:worker-init-script (178ms)
+06.06.2025 19:28:32-debug: Start up the 'internal' database...
+06.06.2025 19:28:34-debug: start asset-db with asset: 409
+06.06.2025 19:28:34-debug: Start up the 'assets' database...
+06.06.2025 19:28:34-debug: start asset-db with asset: 37
+06.06.2025 19:28:34-debug: asset-db:worker-startup-database[internal] (24941ms)
+06.06.2025 19:28:34-debug: Asset DB is ready!
+06.06.2025 19:28:34-debug: asset-db:worker-startup-database[assets] (22460ms)
+06.06.2025 19:28:34-debug: init worker message success
+06.06.2025 19:28:37-debug: builder:worker-init (3129ms)
+06.06.2025 19:28:42-debug: programming:execute-script (6ms)
+06.06.2025 19:29:33-debug: refresh db internal success
+06.06.2025 19:29:33-debug: asset-db:worker-effect-data-processing (319ms)
+06.06.2025 19:29:33-debug: refresh db assets success
+06.06.2025 19:29:33-debug: asset-db:refresh-all-database (441ms)
+06.06.2025 19:29:38-debug: start remove asset C:\GameECSProject\assets\texture\Dungeon_Tiles.png...
+06.06.2025 19:29:39-debug: refresh db internal success
+06.06.2025 19:29:39-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:29:39-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:29:39-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.pngbackground: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:29:39-debug: start refresh asset from C:\GameECSProject\assets\texture\Dungeon_Tiles.png...
+06.06.2025 19:29:39-debug: refresh asset C:\GameECSProject\assets\texture success
+06.06.2025 19:29:39-debug: remove asset C:\GameECSProject\assets\texture\Dungeon_Tiles.png success
+06.06.2025 19:29:39-debug: asset-db:worker-effect-data-processing (263ms)
+06.06.2025 19:29:39-debug: %cImport%c: C:\GameECSProject\assets\texturebackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:29:39-debug: refresh db assets success
+06.06.2025 19:29:39-debug: asset-db:refresh-all-database (405ms)
+06.06.2025 19:29:47-debug: refresh db internal success
+06.06.2025 19:29:47-debug: asset-db:worker-effect-data-processing (262ms)
+06.06.2025 19:29:47-debug: refresh db assets success
+06.06.2025 19:29:47-debug: asset-db:refresh-all-database (383ms)
+06.06.2025 19:34:13-debug: refresh db internal success
+06.06.2025 19:34:13-debug: asset-db:worker-effect-data-processing (222ms)
+06.06.2025 19:34:13-debug: refresh db assets success
+06.06.2025 19:34:13-debug: asset-db:refresh-all-database (331ms)
+06.06.2025 19:34:27-debug: start refresh asset from C:\GameECSProject\assets\texture\auto-atlas.pac...
+06.06.2025 19:34:27-debug: %cImport%c: C:\GameECSProject\assets\texture\auto-atlas.pacbackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:27-debug: refresh asset C:\GameECSProject\assets\texture success
+06.06.2025 19:34:28-debug: %cImport%c: C:\GameECSProject\assets\texturebackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:37-debug: start refresh asset from C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png...
+06.06.2025 19:34:37-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.pngbackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:37-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png@6c48abackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:37-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png@f9941background: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:37-debug: refresh asset C:\GameECSProject\assets\texture success
+06.06.2025 19:34:37-debug: %cImport%c: C:\GameECSProject\assets\texturebackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:37-debug: refresh db internal success
+06.06.2025 19:34:37-debug: asset-db:worker-effect-data-processing (290ms)
+06.06.2025 19:34:37-debug: refresh db assets success
+06.06.2025 19:34:37-debug: asset-db:refresh-all-database (417ms)
+06.06.2025 19:34:43-debug: start remove asset C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png...
+06.06.2025 19:34:43-debug: refresh db internal success
+06.06.2025 19:34:43-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:34:43-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png@f9941background: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:34:43-debug: %cDestroy%c: C:\GameECSProject\assets\texture\Dungeon_Tiles-28.pngbackground: #ffb8b8; color: #000;color: #000;
+06.06.2025 19:34:43-debug: start refresh asset from C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png...
+06.06.2025 19:34:43-debug: refresh asset C:\GameECSProject\assets\texture success
+06.06.2025 19:34:43-debug: remove asset C:\GameECSProject\assets\texture\Dungeon_Tiles-28.png success
+06.06.2025 19:34:44-debug: asset-db:worker-effect-data-processing (230ms)
+06.06.2025 19:34:44-debug: %cImport%c: C:\GameECSProject\assets\texturebackground: #aaff85; color: #000;color: #000;
+06.06.2025 19:34:44-debug: refresh db assets success
+06.06.2025 19:34:44-debug: asset-db:refresh-all-database (376ms)
+06.06.2025 19:34:49-debug: refresh db internal success
+06.06.2025 19:34:49-debug: asset-db:worker-effect-data-processing (214ms)
+06.06.2025 19:34:49-debug: refresh db assets success
+06.06.2025 19:34:49-debug: asset-db:refresh-all-database (377ms)
+06.06.2025 19:35:49-debug: refresh db internal success
+06.06.2025 19:35:49-debug: asset-db:worker-effect-data-processing (270ms)
+06.06.2025 19:35:49-debug: refresh db assets success
+06.06.2025 19:35:49-debug: asset-db:refresh-all-database (404ms)
+06.06.2025 19:35:50-warn: query-asset-info failed! can't get asset info of {asset(1c00c810-6eae-408f-845e-12c48faa7c73)}.
+06.06.2025 20:41:53-debug: refresh db internal success
+06.06.2025 20:41:53-debug: asset-db:worker-effect-data-processing (240ms)
+06.06.2025 20:41:53-debug: refresh db assets success
+06.06.2025 20:41:53-debug: asset-db:refresh-all-database (363ms)
+06.06.2025 23:52:18-debug: refresh db internal success
+06.06.2025 23:52:19-debug: asset-db:worker-effect-data-processing (541ms)
+06.06.2025 23:52:19-debug: refresh db assets success
+06.06.2025 23:52:19-debug: asset-db:refresh-all-database (1219ms)

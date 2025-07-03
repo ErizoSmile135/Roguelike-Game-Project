@@ -1,0 +1,240 @@
+04.06.2025 15:11:14-debug: asset-db:worker-init (4461ms)
+04.06.2025 15:11:19-debug: Preimport db internal success
+04.06.2025 15:11:20-debug: Preimport db assets success
+04.06.2025 15:11:20-debug: asset-db:worker-effect-data-processing (820ms)
+04.06.2025 15:11:39-debug: Set detail map pack:///resolution-detail-map.json: {}
+04.06.2025 15:11:39-debug: asset-db:worker-init-script (158ms)
+04.06.2025 15:11:39-debug: Start up the 'internal' database...
+04.06.2025 15:11:41-debug: start asset-db with asset: 409
+04.06.2025 15:11:41-debug: Start up the 'assets' database...
+04.06.2025 15:11:41-debug: start asset-db with asset: 36
+04.06.2025 15:11:41-debug: asset-db:worker-startup-database[internal] (23897ms)
+04.06.2025 15:11:41-debug: Asset DB is ready!
+04.06.2025 15:11:41-debug: asset-db:worker-startup-database[assets] (21446ms)
+04.06.2025 15:11:41-debug: init worker message success
+04.06.2025 15:11:44-debug: builder:worker-init (2746ms)
+04.06.2025 15:11:48-debug: programming:execute-script (5ms)
+04.06.2025 15:53:54-debug: refresh db internal success
+04.06.2025 15:53:54-debug: asset-db:worker-effect-data-processing (204ms)
+04.06.2025 15:53:54-debug: refresh db assets success
+04.06.2025 15:53:54-debug: asset-db:refresh-all-database (331ms)
+04.06.2025 15:54:10-debug: Query all assets info in project
+04.06.2025 15:54:10-debug: BuildAssetLibrary query-assets with assets 460
+04.06.2025 15:54:10-debug: init custom config: keepNodeUuid: false, useCache: true
+04.06.2025 15:54:10-debug:   Number of all scenes: 1
+04.06.2025 15:54:10-debug:   Number of all scripts: 19
+04.06.2025 15:54:10-debug:   Number of other assets: 301
+04.06.2025 15:54:10-debug: Query asset bundle start0%
+04.06.2025 15:54:10-debug: // ---- build task Query asset bundle ----
+04.06.2025 15:54:10-debug: Process: heapTotal 216.18MB heapUsed 200.03MB rss 531.24MB
+04.06.2025 15:54:10-debug: // ---- build task Query asset bundle ---- (22ms)
+04.06.2025 15:54:10-debug: run build task Query asset bundle success in 22 ms √3%
+04.06.2025 15:54:10-debug: Query and organize assets start3%
+04.06.2025 15:54:10-debug: // ---- build task Query and organize assets ----
+04.06.2025 15:54:10-debug: Process: heapTotal 203.68MB heapUsed 196.73MB rss 522.11MB
+04.06.2025 15:54:10-debug: init bundle assets
+04.06.2025 15:54:10-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+04.06.2025 15:54:10-debug: Number of scenes: 1
+04.06.2025 15:54:10-debug: // ---- build task Query and organize assets ---- (8ms)
+04.06.2025 15:54:10-debug: run build task Query and organize assets success in 8 ms √7%
+04.06.2025 15:54:10-debug: Organize scripts start7%
+04.06.2025 15:54:10-debug: // ---- build task Organize scripts ----
+04.06.2025 15:54:10-debug: Process: heapTotal 203.68MB heapUsed 196.88MB rss 522.66MB
+04.06.2025 15:54:10-debug: sort script group...
+04.06.2025 15:54:10-debug: // ---- build task Organize scripts ---- (1ms)
+04.06.2025 15:54:10-debug: run build task Organize scripts success in 1 ms √10%
+04.06.2025 15:54:10-debug: Init settings and config start10%
+04.06.2025 15:54:10-debug: // ---- build task Init settings and config ----
+04.06.2025 15:54:10-debug: Process: heapTotal 203.68MB heapUsed 196.92MB rss 523.45MB
+04.06.2025 15:54:10-debug: // ---- build task Init settings and config ---- (1ms)
+04.06.2025 15:54:10-debug: run build task Init settings and config success in 1 ms √11%
+04.06.2025 15:54:10-debug: builder.tasks.settings.macro start11%
+04.06.2025 15:54:10-debug: builder.tasks.settings.macro does not defined in i18n
+04.06.2025 15:54:10-debug: // ---- build task builder.tasks.settings.macro ----
+04.06.2025 15:54:10-debug: Process: heapTotal 203.68MB heapUsed 196.95MB rss 523.09MB
+04.06.2025 15:54:10-debug: // ---- build task builder.tasks.settings.macro ---- (4ms)
+04.06.2025 15:54:10-debug: run build task builder.tasks.settings.macro success in 4 ms √11%
+04.06.2025 15:54:10-debug: Sort some build options to settings.json start11%
+04.06.2025 15:54:10-debug: // ---- build task Sort some build options to settings.json ----
+04.06.2025 15:54:10-debug: Process: heapTotal 203.68MB heapUsed 196.99MB rss 520.67MB
+04.06.2025 15:54:11-debug: // ---- build task Sort some build options to settings.json ---- (460ms)
+04.06.2025 15:54:11-debug: run build task Sort some build options to settings.json success in 460 ms √12%
+04.06.2025 15:54:11-debug: custom joint texture layouts start12%
+04.06.2025 15:54:11-debug: // ---- build task custom joint texture layouts ----
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.06MB rss 520.29MB
+04.06.2025 15:54:11-debug: // ---- build task custom joint texture layouts ---- (4ms)
+04.06.2025 15:54:11-debug: run build task custom joint texture layouts success in 4 ms √12%
+04.06.2025 15:54:11-debug: custom joint physics start12%
+04.06.2025 15:54:11-debug: // ---- build task custom joint physics ----
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.09MB rss 520.29MB
+04.06.2025 15:54:11-debug: // ---- build task custom joint physics ---- (1ms)
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.11MB rss 520.30MB
+04.06.2025 15:54:11-debug: run build task custom joint physics success in 1 ms √13%
+04.06.2025 15:54:11-debug: Fill script data to settings start13%
+04.06.2025 15:54:11-debug: run build task Fill script data to settings success in 0 ms √13%
+04.06.2025 15:54:11-debug: Fill scene data to settings start13%
+04.06.2025 15:54:11-debug: // ---- build task Fill scene data to settings ----
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.14MB rss 520.27MB
+04.06.2025 15:54:11-debug: // ---- build task Fill scene data to settings ---- (1ms)
+04.06.2025 15:54:11-debug: run build task Fill scene data to settings success in 1 ms √14%
+04.06.2025 15:54:11-debug: Organize assets groups，generate packedAssets and rawAssets data start14%
+04.06.2025 15:54:11-debug: // ---- build task Organize assets groups，generate packedAssets and rawAssets data ----
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.16MB rss 520.27MB
+04.06.2025 15:54:11-debug: // ---- build task Organize assets groups，generate packedAssets and rawAssets data ---- (2ms)
+04.06.2025 15:54:11-debug: Generate md5AssetsMap from suffixMap to settings start14%
+04.06.2025 15:54:11-debug: run build task Organize assets groups，generate packedAssets and rawAssets data success in 2 ms √14%
+04.06.2025 15:54:11-debug: // ---- build task Generate md5AssetsMap from suffixMap to settings ----
+04.06.2025 15:54:11-debug: options.md5Cache is false.
+04.06.2025 15:54:11-debug: Process: heapTotal 203.68MB heapUsed 197.20MB rss 520.30MB
+04.06.2025 15:54:11-debug: // ---- build task Fill script data to settings ----
+04.06.2025 15:54:11-debug: // ---- build task Generate md5AssetsMap from suffixMap to settings ---- (1ms)
+04.06.2025 15:54:11-debug: run build task Generate md5AssetsMap from suffixMap to settings success in 1 ms √15%
+04.06.2025 15:55:58-debug: refresh db internal success
+04.06.2025 15:55:58-debug: asset-db:worker-effect-data-processing (283ms)
+04.06.2025 15:55:58-debug: refresh db assets success
+04.06.2025 15:55:58-debug: asset-db:refresh-all-database (400ms)
+04.06.2025 15:56:06-debug: refresh db internal success
+04.06.2025 15:56:07-debug: asset-db:worker-effect-data-processing (195ms)
+04.06.2025 15:56:07-debug: refresh db assets success
+04.06.2025 15:56:07-debug: asset-db:refresh-all-database (324ms)
+04.06.2025 16:10:09-debug: refresh db internal success
+04.06.2025 16:10:10-debug: asset-db:worker-effect-data-processing (260ms)
+04.06.2025 16:10:10-debug: refresh db assets success
+04.06.2025 16:10:10-debug: asset-db:refresh-all-database (375ms)
+04.06.2025 16:10:22-debug: refresh db internal success
+04.06.2025 16:10:22-debug: asset-db:worker-effect-data-processing (180ms)
+04.06.2025 16:10:22-debug: refresh db assets success
+04.06.2025 16:10:22-debug: asset-db:refresh-all-database (290ms)
+04.06.2025 16:10:31-debug: start refresh asset from C:\GameECSProject\assets\texture\Dungeon_Tiles.png...
+04.06.2025 16:10:31-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.pngbackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:10:31-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@6c48abackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:10:31-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #aaff85; color: #000;color: #000;
+04.06.2025 16:10:31-debug: refresh asset C:\GameECSProject\assets\texture success
+04.06.2025 16:10:31-debug: refresh db internal success
+04.06.2025 16:10:32-debug: asset-db:worker-effect-data-processing (264ms)
+04.06.2025 16:10:32-debug: %cImport%c: C:\GameECSProject\assets\texturebackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:10:32-debug: refresh db assets success
+04.06.2025 16:10:32-debug: asset-db:refresh-all-database (382ms)
+04.06.2025 16:10:37-debug: refresh db internal success
+04.06.2025 16:10:37-debug: asset-db:worker-effect-data-processing (174ms)
+04.06.2025 16:10:37-debug: refresh db assets success
+04.06.2025 16:10:37-debug: asset-db:refresh-all-database (325ms)
+04.06.2025 16:10:49-debug: refresh db internal success
+04.06.2025 16:10:50-debug: asset-db:worker-effect-data-processing (182ms)
+04.06.2025 16:10:50-debug: refresh db assets success
+04.06.2025 16:10:50-debug: asset-db:refresh-all-database (287ms)
+04.06.2025 16:11:16-debug: refresh db internal success
+04.06.2025 16:11:16-debug: asset-db:worker-effect-data-processing (260ms)
+04.06.2025 16:11:16-debug: refresh db assets success
+04.06.2025 16:11:16-debug: asset-db:refresh-all-database (366ms)
+04.06.2025 16:11:33-debug: refresh db internal success
+04.06.2025 16:11:34-debug: asset-db:worker-effect-data-processing (200ms)
+04.06.2025 16:11:34-debug: refresh db assets success
+04.06.2025 16:11:34-debug: asset-db:refresh-all-database (307ms)
+04.06.2025 16:12:02-debug: refresh db internal success
+04.06.2025 16:12:02-debug: asset-db:worker-effect-data-processing (246ms)
+04.06.2025 16:12:02-debug: refresh db assets success
+04.06.2025 16:12:02-debug: asset-db:refresh-all-database (333ms)
+04.06.2025 16:18:22-debug: refresh db internal success
+04.06.2025 16:18:22-debug: asset-db:worker-effect-data-processing (254ms)
+04.06.2025 16:18:22-debug: refresh db assets success
+04.06.2025 16:18:22-debug: asset-db:refresh-all-database (374ms)
+04.06.2025 16:18:27-debug: refresh db internal success
+04.06.2025 16:18:27-debug: asset-db:worker-effect-data-processing (171ms)
+04.06.2025 16:18:27-debug: refresh db assets success
+04.06.2025 16:18:27-debug: asset-db:refresh-all-database (257ms)
+04.06.2025 16:19:03-debug: refresh db internal success
+04.06.2025 16:19:04-debug: asset-db:worker-effect-data-processing (303ms)
+04.06.2025 16:19:04-debug: refresh db assets success
+04.06.2025 16:19:04-debug: asset-db:refresh-all-database (450ms)
+04.06.2025 16:19:46-debug: refresh db internal success
+04.06.2025 16:19:47-debug: asset-db:worker-effect-data-processing (278ms)
+04.06.2025 16:19:47-debug: refresh db assets success
+04.06.2025 16:19:47-debug: asset-db:refresh-all-database (387ms)
+04.06.2025 16:21:55-debug: refresh db internal success
+04.06.2025 16:21:55-debug: asset-db:worker-effect-data-processing (300ms)
+04.06.2025 16:21:55-debug: refresh db assets success
+04.06.2025 16:21:55-debug: asset-db:refresh-all-database (398ms)
+04.06.2025 16:26:28-debug: refresh db internal success
+04.06.2025 16:26:28-debug: asset-db:worker-effect-data-processing (257ms)
+04.06.2025 16:26:28-debug: refresh db assets success
+04.06.2025 16:26:28-debug: asset-db:refresh-all-database (351ms)
+04.06.2025 16:26:35-debug: refresh db internal success
+04.06.2025 16:26:35-debug: asset-db:worker-effect-data-processing (183ms)
+04.06.2025 16:26:35-debug: refresh db assets success
+04.06.2025 16:26:35-debug: asset-db:refresh-all-database (282ms)
+04.06.2025 16:29:26-debug: refresh db internal success
+04.06.2025 16:29:26-debug: asset-db:worker-effect-data-processing (370ms)
+04.06.2025 16:29:26-debug: refresh db assets success
+04.06.2025 16:29:26-debug: asset-db:refresh-all-database (472ms)
+04.06.2025 16:33:08-debug: refresh db internal success
+04.06.2025 16:33:08-debug: asset-db:worker-effect-data-processing (309ms)
+04.06.2025 16:33:08-debug: refresh db assets success
+04.06.2025 16:33:08-debug: asset-db:refresh-all-database (415ms)
+04.06.2025 16:34:34-debug: refresh db internal success
+04.06.2025 16:34:34-debug: asset-db:worker-effect-data-processing (199ms)
+04.06.2025 16:34:34-debug: refresh db assets success
+04.06.2025 16:34:34-debug: asset-db:refresh-all-database (296ms)
+04.06.2025 16:38:03-debug: refresh db internal success
+04.06.2025 16:38:03-debug: asset-db:worker-effect-data-processing (279ms)
+04.06.2025 16:38:03-debug: refresh db assets success
+04.06.2025 16:38:03-debug: asset-db:refresh-all-database (368ms)
+04.06.2025 16:38:17-debug: refresh db internal success
+04.06.2025 16:38:17-debug: asset-db:worker-effect-data-processing (193ms)
+04.06.2025 16:38:17-debug: refresh db assets success
+04.06.2025 16:38:17-debug: asset-db:refresh-all-database (288ms)
+04.06.2025 16:38:54-debug: refresh db internal success
+04.06.2025 16:38:54-debug: asset-db:worker-effect-data-processing (269ms)
+04.06.2025 16:38:54-debug: refresh db assets success
+04.06.2025 16:38:54-debug: asset-db:refresh-all-database (370ms)
+04.06.2025 16:38:58-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #aaff85; color: #000;color: #000;
+04.06.2025 16:38:58-debug: asset-db:reimport-asset699131b9-47ad-40c0-9f3e-d413552d9ac6@f9941 (30ms)
+04.06.2025 16:38:59-debug: refresh db internal success
+04.06.2025 16:38:59-debug: asset-db:worker-effect-data-processing (175ms)
+04.06.2025 16:38:59-debug: refresh db assets success
+04.06.2025 16:38:59-debug: asset-db:refresh-all-database (265ms)
+04.06.2025 16:39:15-debug: refresh db internal success
+04.06.2025 16:39:15-debug: asset-db:worker-effect-data-processing (182ms)
+04.06.2025 16:39:15-debug: refresh db assets success
+04.06.2025 16:39:15-debug: asset-db:refresh-all-database (285ms)
+04.06.2025 16:39:42-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.pngbackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:39:42-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@6c48abackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:39:42-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #aaff85; color: #000;color: #000;
+04.06.2025 16:39:42-debug: asset-db:reimport-asset699131b9-47ad-40c0-9f3e-d413552d9ac6 (64ms)
+04.06.2025 16:39:42-debug: refresh db internal success
+04.06.2025 16:39:42-debug: asset-db:worker-effect-data-processing (295ms)
+04.06.2025 16:39:42-debug: refresh db assets success
+04.06.2025 16:39:42-debug: asset-db:refresh-all-database (408ms)
+04.06.2025 16:43:17-debug: refresh db internal success
+04.06.2025 16:43:17-debug: asset-db:worker-effect-data-processing (259ms)
+04.06.2025 16:43:17-debug: refresh db assets success
+04.06.2025 16:43:17-debug: asset-db:refresh-all-database (359ms)
+04.06.2025 16:43:20-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #aaff85; color: #000;color: #000;
+04.06.2025 16:43:20-debug: asset-db:reimport-asset699131b9-47ad-40c0-9f3e-d413552d9ac6@f9941 (34ms)
+04.06.2025 16:43:20-debug: refresh db internal success
+04.06.2025 16:43:20-debug: asset-db:worker-effect-data-processing (194ms)
+04.06.2025 16:43:20-debug: refresh db assets success
+04.06.2025 16:43:20-debug: asset-db:refresh-all-database (336ms)
+04.06.2025 16:43:22-debug: refresh db internal success
+04.06.2025 16:43:22-debug: asset-db:worker-effect-data-processing (219ms)
+04.06.2025 16:43:22-debug: refresh db assets success
+04.06.2025 16:43:22-debug: asset-db:refresh-all-database (327ms)
+04.06.2025 16:43:25-debug: refresh db internal success
+04.06.2025 16:43:25-debug: asset-db:worker-effect-data-processing (175ms)
+04.06.2025 16:43:25-debug: refresh db assets success
+04.06.2025 16:43:25-debug: asset-db:refresh-all-database (296ms)
+04.06.2025 16:45:11-debug: %cImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.pngbackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:45:11-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@6c48abackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:45:11-debug: %cReImport%c: C:\GameECSProject\assets\texture\Dungeon_Tiles.png@f9941background: #aaff85; color: #000;color: #000;
+04.06.2025 16:45:11-debug: asset-db:reimport-asset699131b9-47ad-40c0-9f3e-d413552d9ac6 (56ms)
+04.06.2025 16:46:00-debug: start refresh asset from C:\GameECSProject\assets\scene\Main.scene...
+04.06.2025 16:46:00-debug: %cImport%c: C:\GameECSProject\assets\scene\Main.scenebackground: #aaff85; color: #000;color: #000;
+04.06.2025 16:46:00-debug: refresh asset C:\GameECSProject\assets\scene success
+04.06.2025 17:54:16-debug: refresh db internal success
+04.06.2025 17:54:17-debug: asset-db:worker-effect-data-processing (220ms)
+04.06.2025 17:54:17-debug: refresh db assets success
+04.06.2025 17:54:17-debug: asset-db:refresh-all-database (390ms)
+05.06.2025 00:20:04-debug: refresh db internal success
+05.06.2025 00:20:05-debug: asset-db:worker-effect-data-processing (498ms)
+05.06.2025 00:20:05-debug: refresh db assets success
+05.06.2025 00:20:05-debug: asset-db:refresh-all-database (671ms)

@@ -1,6 +1,9 @@
-import { PrefabNames } from "./consts";
+//import { PrefabNames } from "./consts";
 
-export type PrefabKey = keyof typeof PrefabNames;
+import { InputNames, PrefabNames } from "./consts";
+
+export type PrefabType = typeof PrefabNames[keyof typeof PrefabNames];
+export type InputType = typeof InputNames[keyof typeof InputNames];
 
 export type RoomTemplate = {
   width: number;

@@ -76,7 +76,7 @@
     "value": {}
   },
   "ee641700-7547-4389-a613-3f1d60c9c602": {
-    "url": "db://assets/scripts/components/ViewComponent.ts",
+    "url": "db://assets/scripts/components/core/ViewComponent.ts",
     "value": {}
   },
   "4622ef4b-e759-438c-99b1-23b2080ceb33": {
@@ -92,15 +92,15 @@
     "value": {}
   },
   "55507d35-d6a4-4396-a63d-16fc5092b11f": {
-    "url": "db://assets/scripts/components/PlayerTag.ts",
+    "url": "db://assets/scripts/components/Tag/PlayerTag.ts",
     "value": {}
   },
   "f4e16367-3637-45e4-9b88-e8994e571ab9": {
-    "url": "db://assets/scripts/components/EnemyTag.ts",
+    "url": "db://assets/scripts/components/Tag/EnemyTag.ts",
     "value": {}
   },
   "96354976-530e-4abd-9d00-6208f108e0f8": {
-    "url": "db://assets/scripts/components/TileTag.ts",
+    "url": "db://assets/scripts/components/Tag/TileTag.ts",
     "value": {}
   },
   "51ad610d-7d8b-4eaf-bc0c-2a12f4a05a79": {
@@ -153,7 +153,7 @@
     "url": "db://assets/prefabs/Tile.prefab",
     "value": {
       "depends": [
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+        "aeca1512-01ee-4fa6-a985-f6d7f26322da@f9941"
       ]
     }
   },
@@ -198,5 +198,129 @@
         "24ef493c-cdae-46e4-ba61-ea76033887f9@6c48a"
       ]
     }
+  },
+  "699131b9-47ad-40c0-9f3e-d413552d9ac6": {
+    "url": "db://assets/texture/Dungeon_Tiles.png",
+    "value": {}
+  },
+  "699131b9-47ad-40c0-9f3e-d413552d9ac6@6c48a": {
+    "url": "db://assets/texture/Dungeon_Tiles.png@6c48a",
+    "value": {
+      "depends": [
+        "699131b9-47ad-40c0-9f3e-d413552d9ac6"
+      ]
+    }
+  },
+  "699131b9-47ad-40c0-9f3e-d413552d9ac6@f9941": {
+    "url": "db://assets/texture/Dungeon_Tiles.png@f9941",
+    "value": {
+      "depends": [
+        "699131b9-47ad-40c0-9f3e-d413552d9ac6@6c48a"
+      ]
+    }
+  },
+  "1c00c810-6eae-408f-845e-12c48faa7c73": {
+    "url": "db://assets/texture/auto-atlas.pac",
+    "value": {
+      "depends": []
+    }
+  },
+  "0897d297-a516-4dd2-9ec4-6ce48c9ad07b": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png",
+    "value": {}
+  },
+  "0897d297-a516-4dd2-9ec4-6ce48c9ad07b@6c48a": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png@6c48a",
+    "value": {
+      "depends": [
+        "0897d297-a516-4dd2-9ec4-6ce48c9ad07b"
+      ]
+    }
+  },
+  "0897d297-a516-4dd2-9ec4-6ce48c9ad07b@f9941": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png@f9941",
+    "value": {
+      "depends": [
+        "0897d297-a516-4dd2-9ec4-6ce48c9ad07b@6c48a"
+      ]
+    }
+  },
+  "aeca1512-01ee-4fa6-a985-f6d7f26322da": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "aeca1512-01ee-4fa6-a985-f6d7f26322da@6c48a": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png@6c48a",
+    "value": {
+      "depends": [
+        "aeca1512-01ee-4fa6-a985-f6d7f26322da"
+      ]
+    }
+  },
+  "aeca1512-01ee-4fa6-a985-f6d7f26322da@f9941": {
+    "url": "db://assets/texture/Dungeon_Tiles-28.png@f9941",
+    "value": {
+      "depends": [
+        "aeca1512-01ee-4fa6-a985-f6d7f26322da@6c48a"
+      ]
+    }
+  },
+  "771e76d0-5463-4d18-8d0c-d7922f8472d0": {
+    "url": "db://assets/scripts/components/core/AIComponent.ts",
+    "value": {}
+  },
+  "08dde91d-1572-40e1-8383-50b78ab0e542": {
+    "url": "db://assets/scripts/components/core/InputComponent.ts",
+    "value": {}
+  },
+  "bd95eda2-26a7-4966-aee8-0cd4cf5aac79": {
+    "url": "db://assets/scripts/systems/InputSystem.ts",
+    "value": {}
+  },
+  "cd62e5f5-68f4-4dbd-b949-09b0788b9bff": {
+    "url": "db://assets/scripts/components/core",
+    "value": {}
+  },
+  "97041cbc-1c07-4df4-89d7-37cdf77e2fea": {
+    "url": "db://assets/scripts/components/intent",
+    "value": {}
+  },
+  "0b9c7eb3-a6b7-4e21-adcb-efea1319c641": {
+    "url": "db://assets/scripts/components/Tag",
+    "value": {}
+  },
+  "05c44357-a45f-4ddb-81fb-7fb54d26b7c3": {
+    "url": "db://assets/scripts/components/intent/AttackIntent.ts",
+    "value": {}
+  },
+  "39291a9b-a1c0-4089-b51b-41e96541f695": {
+    "url": "db://assets/scripts/components/intent/InteractIntent.ts",
+    "value": {}
+  },
+  "a11558f0-9c26-4d3b-86d9-47c0c53c812e": {
+    "url": "db://assets/scripts/components/intent/MoveIntent.ts",
+    "value": {}
+  },
+  "1bd28053-c68a-4f4a-b32b-6203e804d507": {
+    "url": "db://assets/scripts/components/intent/WaitIntent.ts",
+    "value": {}
+  },
+  "16bffd0d-5077-4728-91d8-672d74d6c813": {
+    "url": "db://assets/scripts/core/EventBus.ts",
+    "value": {}
+  },
+  "02e76e96-f8fe-40c6-a217-c2c8c93113c8": {
+    "url": "db://assets/scripts/core/Pathfinding.ts",
+    "value": {}
+  },
+  "a1a881a2-ff97-41ab-afb5-9149b5092502": {
+    "url": "db://assets/scripts/components/Trap.ts",
+    "value": {}
+  },
+  "be4a4206-6537-4780-89e5-3878684d0045": {
+    "url": "db://assets/scripts/systems/TrapSystem.ts",
+    "value": {}
   }
 }

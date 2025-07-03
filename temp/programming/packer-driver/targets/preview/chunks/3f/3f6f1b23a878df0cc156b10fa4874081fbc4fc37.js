@@ -1,0 +1,78 @@
+System.register(["__unresolved_0", "cc"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, EventBus, _crd, eventBus;
+
+  function _reportPossibleCrUseOfDamage(extras) {
+    _reporterNs.report("Damage", "../components/Damage", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPosition(extras) {
+    _reporterNs.report("Position", "../components/Position", _context.meta, extras);
+  }
+
+  _export("EventBus", void 0);
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "16bff0NUHdHKJHYZy101sgT", "EventBus", undefined);
+
+      _export("EventBus", EventBus = class EventBus {
+        constructor() {
+          this.listeners = {};
+        }
+
+        /**
+         * Подписка на событие.
+         * E — конкретный ключ из EventMap.
+         * fn — функция, принимающая правильный payload.
+         */
+        on(event, fn) {
+          // создаём Set<Function> при первой подписке
+          if (!this.listeners[event]) {
+            this.listeners[event] = new Set();
+          }
+
+          this.listeners[event].add(fn);
+        }
+        /**
+         * Отписка от события.
+         */
+
+
+        off(event, fn) {
+          var _this$listeners$event;
+
+          (_this$listeners$event = this.listeners[event]) == null ? void 0 : _this$listeners$event.delete(fn);
+        }
+        /**
+         * Эмит события.
+         */
+
+
+        emit(event, payload) {
+          var _this$listeners$event2;
+
+          (_this$listeners$event2 = this.listeners[event]) == null ? void 0 : _this$listeners$event2.forEach(fn => // приводим к нужному типу
+          fn(payload));
+        }
+
+      }); // глобальный экспорт
+
+
+      _export("eventBus", eventBus = new EventBus());
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=3f6f1b23a878df0cc156b10fa4874081fbc4fc37.js.map

@@ -12,15 +12,29 @@
     "expandLevels": [
       "0",
       "0_0",
-      "0_2_1",
       "0_1",
+      "0_2",
+      "0_2_1",
       "0_3",
-      "0_3_0",
-      "0_2"
+      "0_3_0"
     ]
   },
   "7bac3836-ac74-4a02-a522-4a5d3f85039c": {
     "assetUuid": "7bac3836-ac74-4a02-a522-4a5d3f85039c",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "b494cadf-3cd1-418b-941c-2f9cfaabe309": {
+    "assetUuid": "b494cadf-3cd1-418b-941c-2f9cfaabe309",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "f591f160-66eb-4f12-9213-caa7c4b0b29e": {
+    "assetUuid": "f591f160-66eb-4f12-9213-caa7c4b0b29e",
     "animationUuid": "",
     "expandLevels": [
       "0"

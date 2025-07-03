@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 13748.516999959946,
+      "mTimestamp": 19423.16800004244,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 14440995.601700068,
-      "chunkId": "44e597489e0c8e398a14d72224e90747fde3585a",
+      "mTimestamp": 7712007.175500035,
+      "chunkId": "5f58c7af565edb26cd47956daf49238877876906",
       "imports": [
         {
           "value": "file:///C:/GameECSProject/assets/scripts/components/Damage.ts",
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/EnemyTag.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Health.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,17 +646,17 @@
             },
             "end": {
               "line": 5,
-              "column": 179
+              "column": 177
             }
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/Health.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Position.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 195
+              "column": 193
             },
             "end": {
               "line": 5,
@@ -665,7 +665,7 @@
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/PlayerTag.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Tag/EnemyTag.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -674,217 +674,371 @@
             },
             "end": {
               "line": 5,
-              "column": 340
+              "column": 343
             }
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/Position.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 356
+              "column": 359
             },
             "end": {
               "line": 5,
-              "column": 421
+              "column": 429
             }
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/TileTag.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 437
+              "column": 445
             },
             "end": {
               "line": 5,
-              "column": 501
+              "column": 513
             }
           }
         },
         {
-          "value": "file:///C:/GameECSProject/assets/scripts/components/ViewComponent.ts",
+          "value": "file:///C:/GameECSProject/assets/scripts/components/Trap.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 517
+              "column": 529
             },
             "end": {
               "line": 5,
-              "column": 587
+              "column": 590
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/core/AIComponent.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 606
+            },
+            "end": {
+              "line": 5,
+              "column": 679
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/core/InputComponent.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 695
+            },
+            "end": {
+              "line": 5,
+              "column": 771
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/core/ViewComponent.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 787
+            },
+            "end": {
+              "line": 5,
+              "column": 862
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/intent/AttackIntent.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 878
+            },
+            "end": {
+              "line": 5,
+              "column": 954
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/intent/InteractIntent.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 970
+            },
+            "end": {
+              "line": 5,
+              "column": 1048
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/intent/MoveIntent.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1064
+            },
+            "end": {
+              "line": 5,
+              "column": 1138
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/components/intent/WaitIntent.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1154
+            },
+            "end": {
+              "line": 5,
+              "column": 1228
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/config/RoomConfig.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 603
+              "column": 1244
             },
             "end": {
               "line": 5,
-              "column": 666
+              "column": 1307
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/core/EntityManager.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 682
+              "column": 1323
             },
             "end": {
               "line": 5,
-              "column": 746
+              "column": 1387
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1403
+            },
+            "end": {
+              "line": 5,
+              "column": 1462
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/core/Game.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 762
+              "column": 1478
             },
             "end": {
               "line": 5,
-              "column": 817
+              "column": 1533
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/core/GameManager.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 833
+              "column": 1549
             },
             "end": {
               "line": 5,
-              "column": 895
+              "column": 1611
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/core/Pathfinding.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1627
+            },
+            "end": {
+              "line": 5,
+              "column": 1689
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/core/SceneController.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 911
+              "column": 1705
             },
             "end": {
               "line": 5,
-              "column": 977
+              "column": 1771
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/data/consts.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 993
+              "column": 1787
             },
             "end": {
               "line": 5,
-              "column": 1050
+              "column": 1844
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/data/types.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1066
+              "column": 1860
             },
             "end": {
               "line": 5,
-              "column": 1122
+              "column": 1916
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/systems/CombatSystem.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1138
+              "column": 1932
             },
             "end": {
               "line": 5,
-              "column": 1204
+              "column": 1998
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/systems/InputSystem.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2014
+            },
+            "end": {
+              "line": 5,
+              "column": 2079
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/systems/MovementSystem.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1220
+              "column": 2095
             },
             "end": {
               "line": 5,
-              "column": 1288
+              "column": 2163
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/systems/RenderSystem.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1304
+              "column": 2179
             },
             "end": {
               "line": 5,
-              "column": 1370
+              "column": 2245
             }
           }
         },
         {
           "value": "file:///C:/GameECSProject/assets/scripts/systems/RoomSystem.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1386
+              "column": 2261
             },
             "end": {
               "line": 5,
-              "column": 1450
+              "column": 2325
+            }
+          }
+        },
+        {
+          "value": "file:///C:/GameECSProject/assets/scripts/systems/TrapSystem.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2341
+            },
+            "end": {
+              "line": 5,
+              "column": 2405
             }
           }
         },
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_29",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1466
+              "column": 2421
             },
             "end": {
               "line": 5,
-              "column": 1598
+              "column": 2553
             }
           }
         }
@@ -901,21 +1055,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/EnemyTag.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/components/Health.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/PlayerTag.ts"
           },
           "messages": []
         },
@@ -929,14 +1069,77 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/TileTag.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/EnemyTag.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/ViewComponent.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Trap.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/AIComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/InputComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/ViewComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/AttackIntent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/InteractIntent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/MoveIntent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/WaitIntent.ts"
           },
           "messages": []
         },
@@ -957,6 +1160,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/core/Game.ts"
           },
           "messages": []
@@ -965,6 +1175,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/core/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/Pathfinding.ts"
           },
           "messages": []
         },
@@ -999,6 +1216,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/InputSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/systems/MovementSystem.ts"
           },
           "messages": []
@@ -1014,6 +1238,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/systems/RoomSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/TrapSystem.ts"
           },
           "messages": []
         },
@@ -1155,10 +1386,10 @@
     },
     "file:///C:/GameECSProject/assets/scripts/core/SceneController.ts": {
       "mTimestamp": {
-        "mtime": 1748808415764.7607,
+        "mtime": 1751127518960.6533,
         "uuid": "e44d917d-6631-458b-9f95-a584f5d35c3b"
       },
-      "chunkId": "700d5c6beddf7d380010627d2499e54c13297646",
+      "chunkId": "cb1123cae508fa21909665bbcf3f4b5dbf99fe64",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1175,11 +1406,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 52
+              "column": 58
             },
             "end": {
               "line": 1,
-              "column": 56
+              "column": 62
             }
           }
         },
@@ -1239,10 +1470,10 @@
     },
     "file:///C:/GameECSProject/assets/scripts/core/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1748808076095.7285,
+        "mtime": 1751295251993.6047,
         "uuid": "c538fec4-9333-4a45-83b3-fa21aa0b6c7b"
       },
-      "chunkId": "ec65ca0bce22defbfb147b332dd489b70d21e0b4",
+      "chunkId": "706b4c1654f76d6ffec194a2d38d077f91d993ae",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1295,6 +1526,146 @@
               "column": 50
             }
           }
+        },
+        {
+          "value": "../systems/InputSystem",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 28
+            },
+            "end": {
+              "line": 6,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "../components/Tag/PlayerTag",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 26
+            },
+            "end": {
+              "line": 7,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../components/Health",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 23
+            },
+            "end": {
+              "line": 8,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../components/Damage",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 23
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../components/core/InputComponent",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 31
+            },
+            "end": {
+              "line": 10,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../components/Position",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 25
+            },
+            "end": {
+              "line": 11,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../data/consts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 27
+            },
+            "end": {
+              "line": 12,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../systems/MovementSystem",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 31
+            },
+            "end": {
+              "line": 13,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../systems/TrapSystem",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 27
+            },
+            "end": {
+              "line": 14,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "../systems/CombatSystem",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 29
+            },
+            "end": {
+              "line": 15,
+              "column": 54
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1340,233 +1711,39 @@
             "url": "file:///C:/GameECSProject/assets/scripts/systems/RoomSystem.ts"
           },
           "messages": []
-        }
-      ]
-    },
-    "file:///C:/GameECSProject/assets/scripts/core/EntityManager.ts": {
-      "mTimestamp": {
-        "mtime": 1748807119386.3298,
-        "uuid": "996c803b-6c41-4043-b747-b7cbc8fba288"
-      },
-      "chunkId": "ed26b0d6baeccf4d6592222ff574f93fee9aa63b",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
         },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "../components/ViewComponent",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 30
-            },
-            "end": {
-              "line": 1,
-              "column": 59
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/InputSystem.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/ViewComponent.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///C:/GameECSProject/assets/scripts/systems/RenderSystem.ts": {
-      "mTimestamp": {
-        "mtime": 1748865438247.4675,
-        "uuid": "c099cb26-61a0-40b2-9ac1-efc406656bbf"
-      },
-      "chunkId": "77af49a70f398219d2d9805790d9e7f5181ffd75",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 48
-            },
-            "end": {
-              "line": 1,
-              "column": 52
-            }
-          }
-        },
-        {
-          "value": "../components/PlayerTag",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 51
-            }
-          }
-        },
-        {
-          "value": "../data/consts",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 28
-            },
-            "end": {
-              "line": 5,
-              "column": 44
-            }
-          }
-        },
-        {
-          "value": "../components/EnemyTag",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 6,
-              "column": 25
-            },
-            "end": {
-              "line": 6,
-              "column": 49
-            }
-          }
-        },
-        {
-          "value": "../components/TileTag",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 24
-            },
-            "end": {
-              "line": 7,
-              "column": 47
-            }
-          }
-        },
-        {
-          "value": "../components/Position",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 25
-            },
-            "end": {
-              "line": 8,
-              "column": 49
-            }
-          }
-        },
-        {
-          "value": "../components/ViewComponent",
-          "resolved": "__unresolved_6",
-          "loc": {
-            "start": {
-              "line": 9,
-              "column": 30
-            },
-            "end": {
-              "line": 9,
-              "column": 59
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Health.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Damage.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/PlayerTag.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/data/consts.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/EnemyTag.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/TileTag.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/InputComponent.ts"
           },
           "messages": []
         },
@@ -1580,7 +1757,334 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/ViewComponent.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/data/consts.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/MovementSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/TrapSystem.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/systems/CombatSystem.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/core/EntityManager.ts": {
+      "mTimestamp": {
+        "mtime": 1751288625941.7878,
+        "uuid": "996c803b-6c41-4043-b747-b7cbc8fba288"
+      },
+      "chunkId": "31861c57006b535fdd03345d961f6a7f7259b060",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../components/core/ViewComponent",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 30
+            },
+            "end": {
+              "line": 1,
+              "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/ViewComponent.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/systems/RenderSystem.ts": {
+      "mTimestamp": {
+        "mtime": 1751295265358.2542,
+        "uuid": "c099cb26-61a0-40b2-9ac1-efc406656bbf"
+      },
+      "chunkId": "6177200dc1443d1c66fb4d97e4f86b8bc76de63b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "../components/Tag/PlayerTag",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../data/consts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "../components/Tag/EnemyTag",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../components/Tag/TileTag",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 24
+            },
+            "end": {
+              "line": 6,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../components/Position",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 25
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../components/core/ViewComponent",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 30
+            },
+            "end": {
+              "line": 8,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../core/SceneController",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 32
+            },
+            "end": {
+              "line": 9,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../core/EventBus",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 25
+            },
+            "end": {
+              "line": 11,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../components/Trap",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 21
+            },
+            "end": {
+              "line": 12,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/data/consts.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/EnemyTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Position.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/ViewComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/SceneController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Trap.ts"
           },
           "messages": []
         }
@@ -1588,27 +2092,71 @@
     },
     "file:///C:/GameECSProject/assets/scripts/systems/MovementSystem.ts": {
       "mTimestamp": {
-        "mtime": 1748800685239.0464,
+        "mtime": 1751290862911.6035,
         "uuid": "4b9bfff1-9006-4f1a-930d-fab8558205a4"
       },
-      "chunkId": "0902db1d75c4bba2d580fc457939f309d9b0714d",
+      "chunkId": "0ca4a9d85fb6cef600731425ef7e1dff4c85b606",
       "imports": [
         {
-          "value": "cc"
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
         },
         {
           "value": "cc"
         },
         {
-          "value": "cc",
+          "value": "../components/intent/MoveIntent",
+          "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 1,
-              "column": 44
+              "line": 2,
+              "column": 27
             },
             "end": {
-              "line": 1,
-              "column": 48
+              "line": 2,
+              "column": 60
+            }
+          }
+        },
+        {
+          "value": "../components/Position",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../core/EventBus",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "../core/Pathfinding",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 35
+            },
+            "end": {
+              "line": 7,
+              "column": 56
             }
           }
         }
@@ -1618,7 +2166,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1632,7 +2180,28 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/MoveIntent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Position.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/Pathfinding.ts"
           },
           "messages": []
         }
@@ -1640,27 +2209,43 @@
     },
     "file:///C:/GameECSProject/assets/scripts/systems/CombatSystem.ts": {
       "mTimestamp": {
-        "mtime": 1748800698189.2615,
+        "mtime": 1751295168063.2163,
         "uuid": "bf56f4df-3574-41d2-8150-0d5f98e0aa89"
       },
-      "chunkId": "f060ab132f1334402e6da141f6b9b3d14aaf0bf3",
+      "chunkId": "d3161abbc142b1c82f13e7120948ad1889f1f72e",
       "imports": [
         {
-          "value": "cc"
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
         },
         {
           "value": "cc"
         },
         {
-          "value": "cc",
+          "value": "../core/EventBus",
+          "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 27
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../components/Health",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 49
             }
           }
         }
@@ -1670,7 +2255,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1684,7 +2269,14 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Health.ts"
           },
           "messages": []
         }
@@ -1692,10 +2284,10 @@
     },
     "file:///C:/GameECSProject/assets/scripts/systems/RoomSystem.ts": {
       "mTimestamp": {
-        "mtime": 1748851638205.5403,
+        "mtime": 1751294163400.8264,
         "uuid": "3061b095-c1eb-424f-9929-d8f25fa4a92a"
       },
-      "chunkId": "806b15d90f51cebd1e4ea868e2e716b23933cbb7",
+      "chunkId": "a7a249c39611aadbef054f5b65c9d6177f1aa957",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1719,7 +2311,7 @@
           }
         },
         {
-          "value": "../components/EnemyTag",
+          "value": "../components/Tag/EnemyTag",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -1728,7 +2320,7 @@
             },
             "end": {
               "line": 2,
-              "column": 49
+              "column": 53
             }
           }
         },
@@ -1747,44 +2339,44 @@
           }
         },
         {
-          "value": "../components/PlayerTag",
+          "value": "../components/Position",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 4,
-              "column": 26
-            },
-            "end": {
-              "line": 4,
-              "column": 51
-            }
-          }
-        },
-        {
-          "value": "../components/Position",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 5,
               "column": 25
             },
             "end": {
-              "line": 5,
+              "line": 4,
               "column": 49
             }
           }
         },
         {
-          "value": "../components/TileTag",
-          "resolved": "__unresolved_6",
+          "value": "../components/Tag/TileTag",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 5,
               "column": 24
             },
             "end": {
-              "line": 6,
-              "column": 47
+              "line": 5,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../components/Trap",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 21
+            },
+            "end": {
+              "line": 8,
+              "column": 41
             }
           }
         }
@@ -1815,7 +2407,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/EnemyTag.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/EnemyTag.ts"
           },
           "messages": []
         },
@@ -1829,13 +2421,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/PlayerTag.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///C:/GameECSProject/assets/scripts/components/Position.ts"
           },
           "messages": []
@@ -1843,7 +2428,14 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///C:/GameECSProject/assets/scripts/components/TileTag.ts"
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Trap.ts"
           },
           "messages": []
         }
@@ -1851,7 +2443,7 @@
     },
     "file:///C:/GameECSProject/assets/scripts/components/ViewComponent.ts": {
       "mTimestamp": {
-        "mtime": 1748805423898.9675,
+        "mtime": 1750852750688.1145,
         "uuid": "ee641700-7547-4389-a613-3f1d60c9c602"
       },
       "chunkId": "506fcd6f1fca398efb8b3e4b19f9fc21e9cb9868",
@@ -1938,7 +2530,7 @@
     },
     "file:///C:/GameECSProject/assets/scripts/components/Damage.ts": {
       "mTimestamp": {
-        "mtime": 1748803687675.5884,
+        "mtime": 1751291844831.3242,
         "uuid": "611a659b-b941-4f53-813f-a87e562376f9"
       },
       "chunkId": "c5550437c81d4ce89dd0319ead2b960959b581f6",
@@ -2080,7 +2672,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1748851013431,
+      "mTimestamp": 1751287556939,
       "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
       "imports": [],
       "type": "esm",
@@ -2151,10 +2743,10 @@
     },
     "file:///C:/GameECSProject/assets/scripts/data/consts.ts": {
       "mTimestamp": {
-        "mtime": 1748803320232.1313,
+        "mtime": 1750944250171.3872,
         "uuid": "8e4816f5-511f-4598-a59d-74e8ad8e52ad"
       },
-      "chunkId": "e3063382b1f5f903ea60eb00a23dadf238238f0b",
+      "chunkId": "39369a0e94cc4b67e8edead1162b80374e4c8564",
       "imports": [
         {
           "value": "cc"
@@ -2173,10 +2765,10 @@
     },
     "file:///C:/GameECSProject/assets/scripts/data/types.ts": {
       "mTimestamp": {
-        "mtime": 1748804762639.7205,
+        "mtime": 1750944262175.9531,
         "uuid": "8ddb71a7-ef1c-43de-8e49-cddf90f6cbd8"
       },
-      "chunkId": "accafdc5fb9791290e4af7465966fca8c8a464f9",
+      "chunkId": "c27ccf24accd4f85185a495854e317a10cd07281",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2199,6 +2791,583 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/AIComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1750767291888.4695,
+        "uuid": "771e76d0-5463-4d18-8d0c-d7922f8472d0"
+      },
+      "chunkId": "3f01345bcc1ee68d5955c9f2d01ec6715a71af2a",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/InputComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1750857703219.184,
+        "uuid": "08dde91d-1572-40e1-8383-50b78ab0e542"
+      },
+      "chunkId": "72766a65ef34a7e450ea70796ad12f921ab7b93b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/systems/InputSystem.ts": {
+      "mTimestamp": {
+        "mtime": 1751290920588.316,
+        "uuid": "bd95eda2-26a7-4966-aee8-0cd4cf5aac79"
+      },
+      "chunkId": "ddf32b6002611d07b9d665333913dd5d2d52fe0f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../components/core/InputComponent",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../components/intent/MoveIntent",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 60
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/core/InputComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/intent/MoveIntent.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/Tag/EnemyTag.ts": {
+      "mTimestamp": {
+        "mtime": 1748803659020.3591,
+        "uuid": "f4e16367-3637-45e4-9b88-e8994e571ab9"
+      },
+      "chunkId": "723653c08ffc2838da1cb0c793b767e6aa2ff6e5",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/Tag/PlayerTag.ts": {
+      "mTimestamp": {
+        "mtime": 1748803603696.1753,
+        "uuid": "55507d35-d6a4-4396-a63d-16fc5092b11f"
+      },
+      "chunkId": "43fde5ab7deae3cd6c0e0066eef43f03be8c30c1",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts": {
+      "mTimestamp": {
+        "mtime": 1748803544760.6262,
+        "uuid": "96354976-530e-4abd-9d00-6208f108e0f8"
+      },
+      "chunkId": "e47e0cd0a7a0f270851511d28594a1a041da6e24",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/core/AIComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1750767291888.4695,
+        "uuid": "771e76d0-5463-4d18-8d0c-d7922f8472d0"
+      },
+      "chunkId": "e8f03fe23cd8ec24336e9db8ab700a30a5bf4d1e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/core/InputComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1750948483732.5513,
+        "uuid": "08dde91d-1572-40e1-8383-50b78ab0e542"
+      },
+      "chunkId": "39fab522beef2bf07f4158cc8c6c63f0f69e110d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/core/ViewComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1750948640145.4692,
+        "uuid": "ee641700-7547-4389-a613-3f1d60c9c602"
+      },
+      "chunkId": "8a9017b6b01b94688be1e137d3f70d112649132c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/intent/AttackIntent.ts": {
+      "mTimestamp": {
+        "mtime": 1750970911099.9893,
+        "uuid": "05c44357-a45f-4ddb-81fb-7fb54d26b7c3"
+      },
+      "chunkId": "f64aa5682215bb4a66b2e13a8901047cf6ab30c9",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/intent/InteractIntent.ts": {
+      "mTimestamp": {
+        "mtime": 1750970965182.1443,
+        "uuid": "39291a9b-a1c0-4089-b51b-41e96541f695"
+      },
+      "chunkId": "3ec70c2a32c0694bfc46f023def1796ae5016102",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/intent/MoveIntent.ts": {
+      "mTimestamp": {
+        "mtime": 1751289646734.6956,
+        "uuid": "a11558f0-9c26-4d3b-86d9-47c0c53c812e"
+      },
+      "chunkId": "166fea221fc6b9f8191393275d33051acebadd7f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/intent/WaitIntent.ts": {
+      "mTimestamp": {
+        "mtime": 1750948723625.7278,
+        "uuid": "1bd28053-c68a-4f4a-b32b-6203e804d507"
+      },
+      "chunkId": "147fc66c548bf2a02efb43a0e49c960e0334758e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts": {
+      "mTimestamp": {
+        "mtime": 1751294585723.608,
+        "uuid": "16bffd0d-5077-4728-91d8-672d74d6c813"
+      },
+      "chunkId": "6e5c5ad7396edfe2d6e0c0b25eea1d1ce1f1971e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/core/Pathfinding.ts": {
+      "mTimestamp": {
+        "mtime": 1751286935889.0334,
+        "uuid": "02e76e96-f8fe-40c6-a217-c2c8c93113c8"
+      },
+      "chunkId": "d45282019df730e1e4d2ac5988da5601e1ca11cf",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../components/Position",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Position.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/components/Trap.ts": {
+      "mTimestamp": {
+        "mtime": 1751294019470.3574,
+        "uuid": "a1a881a2-ff97-41ab-afb5-9149b5092502"
+      },
+      "chunkId": "8b54c19c99cdd4a95fae2db81ba302225eb1ca13",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/GameECSProject/assets/scripts/systems/TrapSystem.ts": {
+      "mTimestamp": {
+        "mtime": 1751294334460.4563,
+        "uuid": "be4a4206-6537-4780-89e5-3878684d0045"
+      },
+      "chunkId": "f34ad72b840a256fe2c4b28c1a607e90370955c1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../core/EventBus",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 30
+            },
+            "end": {
+              "line": 38,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../components/Damage",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 30
+            },
+            "end": {
+              "line": 40,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/core/EventBus.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/GameECSProject/assets/scripts/components/Damage.ts"
           },
           "messages": []
         }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/Tag/TileTag.ts"],"names":["TileTag","constructor"],"mappings":";;;iBAAaA,O;;;;;;;;;;;;;yBAAAA,O,GAAN,MAAMA,OAAN,CAAc;AACjBC,QAAAA,WAAW,GAAE,CAAE;;AADE,O","sourcesContent":["export class TileTag {\n    constructor(){}\n}\n\n"]}

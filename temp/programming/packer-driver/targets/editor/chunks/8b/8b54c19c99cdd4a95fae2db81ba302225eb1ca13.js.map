@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///C:/GameECSProject/assets/scripts/components/Trap.ts"],"names":["Trap","constructor"],"mappings":";;;iBAEaA,I;;;;;;;;;;;;;sBAAAA,I,GAAN,MAAMA,IAAN,CAAW;AAChBC,QAAAA,WAAW,GACT,CAAE;;AAFY,O","sourcesContent":["\r\n\r\nexport class Trap {\r\n  constructor(\r\n  ) {}\r\n}\r\n"]}
